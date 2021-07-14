@@ -1,0 +1,15 @@
+postgresql.conf
+	como o servidor se comporta no OS
+	para visualizar as configurações, acessar a view pg_settings
+	acesso: C:\program files\postgresql\13\data
+
+	configs de conexao
+	LISTEN_ADDRESSES enderecos TCP/IP das interfaces do servidor PostgreSQL
+	PORT porta TCP que o pg vai ouvir. std = 5432
+	MAX_CONNECTIONS num max de conexões q o server aguenta
+	SUPERUSER_RESERVED_CONNECTIONS numero de conexoes (slots) reseravadaspara conexoes ao bando de dados de super usuarios
+
+	configs de autenticacao
+	AUTHENTICATION_TIMEOUT tempo max em segundos do cliente para conectar ao server
+	PASSWORD_ENCRYPTION algoritmo de criptografia das senhas dos novos usuarios
+	SSL habilita a conexao criptografada por SSL
